@@ -19,6 +19,7 @@ The model outputs bounding boxes with confidence scores for each detected object
 
 ### **Training YOLOv11**
 The model was trained using [our Roboflow dataset](https://app.roboflow.com/customization-zusov/vehicle-and-pedestrian-cuisv/2) of vehicles and pedestrians.
+
 ---
 
 ## **Contributors to AI Branch**
