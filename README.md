@@ -1,5 +1,3 @@
-# Creating the README file content
-readme_content = """
 # **Safety-Driven Automotive Headlight Control System**
 
 ## **Project Overview**
