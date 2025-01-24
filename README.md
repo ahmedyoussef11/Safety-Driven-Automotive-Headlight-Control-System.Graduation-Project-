@@ -18,8 +18,7 @@ The **YOLOv11** object detection model is used for real-time object classificati
 The model outputs bounding boxes with confidence scores for each detected object, which is then used by the **Headlight Control Node** to adjust the headlights accordingly.
 
 ### **Training YOLOv11**
-The model was trained using a custom dataset of vehicles and pedestrians. Training was done using [Roboflow](https://app.roboflow.com/customization-zusov/vehicle-and-pedestrian-cuisv/2)
- for dataset preparation.
+The model was trained using a custom dataset of vehicles and pedestrians. Training was done using [our Roboflow dataset](https://app.roboflow.com/customization-zusov/vehicle-and-pedestrian-cuisv/2).
 
 ---
 
