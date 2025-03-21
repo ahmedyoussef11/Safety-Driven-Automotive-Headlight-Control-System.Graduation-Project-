@@ -10,14 +10,14 @@ This branch of the **Safety-Driven Automotive Headlight Control System** focuses
 
 ---
 
-## **AI Model - YOLOv11**
+## **AI Model - YOLOv8**
 The **YOLOv11** object detection model is used for real-time object classification and detection, specifically for detecting the following objects:
 - Vehicles (Cars, Trucks, Vans, etc.)
 - Pedestrians
 
 The model outputs bounding boxes with confidence scores for each detected object, which is then used by the **Headlight Control Node** to adjust the headlights accordingly.
 
-### **Training YOLOv11**
+### **Training YOLOv8**
 The model was trained using [our Roboflow dataset](https://app.roboflow.com/customization-zusov/vehicle-and-pedestrian-cuisv/2) of vehicles and pedestrians.
 
 ---
