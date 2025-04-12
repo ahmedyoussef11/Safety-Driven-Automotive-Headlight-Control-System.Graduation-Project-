@@ -35,24 +35,15 @@ This repo has 3 branches:
 - Set up LoRa between two Pis to simulate two cars communicating
 
 ## 🙋‍♂️ Team
-We're 3 students from the Communications and Electronics Department:
+We're 5 students from the Communications and Electronics Department:
 
-- [Ahmed Youssef](https://github.com/ahmedyoussef11) – AI 
-- [Your Teammate] – Embedded coding & Raspberry Pi
-- [Your Teammate] – V2V and system design
-
-## 📷 Demo
-[Insert screenshots, or add a short GIF showing the headlight adjusting]
-
-## 🧪 Try It Yourself
-This is a real-time system, so it works best on a Pi with everything hooked up.
-But you can also:
-- Try the model using just your laptop camera
-- Run the GUI in simulation mode
-
-Let us know if you’d like help setting it up!
+- [Ahmed Youssef](https://github.com/ahmedyoussef11) – AI
+- [Aya Sayed Ahmed](https://github.com/ayaahmed31) - AI
+- [Abdallah Hossam](https://github.com/AbdallahHossamRamzy) – Embedded coding 
+- [Ahmed Moustafa](https://github.com/Ahmedelkbany) – V2V
+- [Omar Mohammed](https://github.com/Omar-Mo7ammed) – V2V
 
 ---
 
 Thanks for reading! 😄
-Feel free to fork or message us if you're working on something similar!
+Feel free to message us if you're working on something similar!
