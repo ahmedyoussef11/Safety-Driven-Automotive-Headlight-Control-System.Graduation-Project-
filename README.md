@@ -6,8 +6,9 @@ We used computer vision, LiDAR, and V2V (vehicle-to-vehicle) communication to au
 
 ## Main Problem
 The main problem addressed in this project is the danger caused by high-beam headlight glare during nighttime driving, which can temporarily blind oncoming drivers and significantly increase the risk of accidents. Many drivers forget or fail to switch to low beams in time, leading to reduced visibility, delayed reaction times, and potential collisions. This issue is especially critical on narrow or poorly lit roads where vehicles face each other directly. Current headlight systems lack intelligent, real-time adaptation, making it essential to develop an automated solution that minimizes glare without compromising the driver's own visibility.
+![Screenshot_2025-06-13_150004-removebg-preview](https://github.com/user-attachments/assets/201c5034-a28d-472d-b841-8f55c118d99e)
 
-## 🛠 What We Used
+## System Diagram Overview
 - Raspberry Pi 4 (main controller)
 - Pi Camera 3 NoIR (night vision)
 - OKdo LiDAR HAT (distance sensor)
