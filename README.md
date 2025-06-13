@@ -4,11 +4,8 @@ Hi there! This is our graduation project from Obour High Institute – a smart a
 
 We used computer vision, LiDAR, and V2V (vehicle-to-vehicle) communication to automatically dim or adjust car headlights when other vehicles or people are nearby.
 
-## 🎯 What This Project Does
-- Detects cars, people, and obstacles using a camera and AI model
-- Measures how far they are using LiDAR
-- Communicates with nearby cars via LoRa (V2V)
-- Controls an LED (simulating a headlight) based on all that
+## Main Problem
+The main problem addressed in this project is the danger caused by high-beam headlight glare during nighttime driving, which can temporarily blind oncoming drivers and significantly increase the risk of accidents. Many drivers forget or fail to switch to low beams in time, leading to reduced visibility, delayed reaction times, and potential collisions. This issue is especially critical on narrow or poorly lit roads where vehicles face each other directly. Current headlight systems lack intelligent, real-time adaptation, making it essential to develop an automated solution that minimizes glare without compromising the driver's own visibility.
 
 ## 🛠 What We Used
 - Raspberry Pi 4 (main controller)
