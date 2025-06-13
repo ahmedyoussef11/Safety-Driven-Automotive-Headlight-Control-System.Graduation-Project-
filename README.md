@@ -16,7 +16,7 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ![5929424934969396911](https://github.com/user-attachments/assets/f77626fa-99cd-4bf7-94a9-650dc28c4da3)
 
 # Eng. Mostafa Ramadan 
-![5947363368392312348](https://github.com/user-attachments/assets/d799d129-2da5-48b9-8712-84c951e47a7b)
+![5947363368392312348](https://github.com/user-attachments/assets/cfc9e20b-0f41-4d68-8588-2f610163a72a)
 
 
 - `ai` → training the YOLO model (includes Roboflow, Kaggle links, etc.)
