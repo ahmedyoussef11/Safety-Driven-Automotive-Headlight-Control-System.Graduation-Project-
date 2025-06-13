@@ -19,18 +19,6 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ![5947363368392312348](https://github.com/user-attachments/assets/93be389d-415a-430b-b1d9-0bda2edacffc)
 
 
-- `ai` → training the YOLO model (includes Roboflow, Kaggle links, etc.)
-- `embedded-sys` → code for Raspberry Pi (LiDAR, LED, GUI)
-- `v2v` → LoRa-based messaging between vehicles
-
-## 🧠 How We Built It
-- Collected our own dataset for car lights, pedestrians, and vehicles at night
-- Labeled it using Roboflow
-- Trained a YOLOv8 model on Kaggle (it’s small enough to run on Raspberry Pi!)
-- Connected the Pi Camera and LiDAR together
-- Wrote code to sync detections with distance and control an LED
-- Set up LoRa between two Pis to simulate two cars communicating
-
 ## 🙋‍♂️ Team
 We're 5 students from the Communications and Electronics Department:
 
@@ -40,7 +28,7 @@ We're 5 students from the Communications and Electronics Department:
 - [Ahmed Moustafa](https://github.com/Ahmedelkbany) – V2V
 - [Omar Mohammed](https://github.com/Omar-Mo7ammed) – V2V
 
----
+## Project Website
+![Screenshot 2025-06-14 000016](https://github.com/user-attachments/assets/995087d5-3c45-4897-b156-53f35773b293)
+### Link: https://smartheadlight.mystrikingly.com/
 
-Thanks for reading! 😄
-Feel free to message us if you're working on something similar!
