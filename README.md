@@ -1,4 +1,4 @@
-# Safety Driven Automotive Headlight Control System 🚗💡
+![5947363368392312348](https://github.com/user-attachments/assets/ffd8ebbc-030d-4c46-a57a-e8a0456a8dfe)# Safety Driven Automotive Headlight Control System 🚗💡
 
 Hi there! This is our graduation project from Obour High Institute – a smart adaptive headlight system designed to reduce nighttime accidents.
 
@@ -13,10 +13,10 @@ The main problem addressed in this project is the danger caused by high-beam hea
 
 ## Supervisors 
 # Dr. Hayam Abdelmordy
-![5929424934969396911](https://github.com/user-attachments/assets/f77626fa-99cd-4bf7-94a9-650dc28c4da3)
+![5929424934969396911](https://github.com/user-attachments/assets/d6d7c164-1483-465a-8ad7-e62244c8b5c2)
 
 # Eng. Mostafa Ramadan 
-![5947363368392312348](https://github.com/user-attachments/assets/cfc9e20b-0f41-4d68-8588-2f610163a72a)
+![5947363368392312348](https://github.com/user-attachments/assets/93be389d-415a-430b-b1d9-0bda2edacffc)
 
 
 - `ai` → training the YOLO model (includes Roboflow, Kaggle links, etc.)
