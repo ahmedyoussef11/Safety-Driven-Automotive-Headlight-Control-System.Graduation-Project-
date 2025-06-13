@@ -11,8 +11,13 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ![Screenshot 2025-06-13 150004](https://github.com/user-attachments/assets/0919a30a-c196-4204-93bc-df5d7f4ef337)
 
 
-## 📁 Project Structure
-This repo has 3 branches:
+## Supervisors 
+# Dr. Hayam Abdelmordy
+![5929424934969396911](https://github.com/user-attachments/assets/f77626fa-99cd-4bf7-94a9-650dc28c4da3)
+
+# Eng. Mostafa Ramadan 
+![5947363368392312348](https://github.com/user-attachments/assets/d799d129-2da5-48b9-8712-84c951e47a7b)
+
 
 - `ai` → training the YOLO model (includes Roboflow, Kaggle links, etc.)
 - `embedded-sys` → code for Raspberry Pi (LiDAR, LED, GUI)
