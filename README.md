@@ -1,4 +1,4 @@
-![5947363368392312348](https://github.com/user-attachments/assets/ffd8ebbc-030d-4c46-a57a-e8a0456a8dfe)# Safety Driven Automotive Headlight Control System 🚗💡
+### Safety Driven Automotive Headlight Control System 🚗💡
 
 Hi there! This is our graduation project from Obour High Institute – a smart adaptive headlight system designed to reduce nighttime accidents.
 
