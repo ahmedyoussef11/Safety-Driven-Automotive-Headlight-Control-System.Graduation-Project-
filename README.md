@@ -1,4 +1,4 @@
-### Safety Driven Automotive Headlight Control System 🚗💡
+# Safety Driven Automotive Headlight Control System 🚗💡
 
 Hi there! This is our graduation project from Obour High Institute – a smart adaptive headlight system designed to reduce nighttime accidents.
 
@@ -11,11 +11,11 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ![Screenshot 2025-06-13 150004](https://github.com/user-attachments/assets/0919a30a-c196-4204-93bc-df5d7f4ef337)
 
 
-## Supervisors 
-# Dr. Hayam Abdelmordy
+# Supervisors 
+## Dr. Hayam Abdelmordy
 ![5929424934969396911](https://github.com/user-attachments/assets/d6d7c164-1483-465a-8ad7-e62244c8b5c2)
 
-# Eng. Mostafa Ramadan 
+## Eng. Mostafa Ramadan 
 ![5947363368392312348](https://github.com/user-attachments/assets/93be389d-415a-430b-b1d9-0bda2edacffc)
 
 
