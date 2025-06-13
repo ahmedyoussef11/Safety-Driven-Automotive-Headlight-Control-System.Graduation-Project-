@@ -20,11 +20,11 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ## 🙋‍♂️ Team
 We're 5 students from the Communications and Electronics Department:
 
-- [Ahmed Youssef](https://github.com/ahmedyoussef11) – AI
-- [Aya Sayed Ahmed](https://github.com/ayaahmed31) - AI
-- [Abdallah Hossam](https://github.com/AbdallahHossamRamzy) – Embedded coding 
-- [Ahmed Moustafa](https://github.com/Ahmedelkbany) – V2V
-- [Omar Mohammed](https://github.com/Omar-Mo7ammed) – V2V
+- [Ahmed Youssef](https://github.com/ahmedyoussef11) 
+- [Aya Sayed Ahmed](https://github.com/ayaahmed31) 
+- [Abdallah Hossam](https://github.com/AbdallahHossamRamzy)  
+- [Ahmed Moustafa](https://github.com/Ahmedelkbany) 
+- [Omar Mohammed](https://github.com/Omar-Mo7ammed) 
 
 ## Project Website
 ![4PGzBB456CJU--zdwbv6sLCgJ8IrSi--yWgREVUxOfPtFCBpdnooSw==](https://github.com/user-attachments/assets/450497c8-2434-4832-af36-16a5994f90fc)
