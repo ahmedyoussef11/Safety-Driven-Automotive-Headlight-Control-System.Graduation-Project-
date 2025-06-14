@@ -1,4 +1,4 @@
-![F1_curve](https://github.com/user-attachments/assets/bfdbe0e6-1363-4ce3-9188-2fddbf19117c)![PR_curve](https://github.com/user-attachments/assets/fa5839a2-8650-47a2-8e36-be87a4f2b15f)# AI Model Selection 
+# AI Model Selection 
 
 This branch provides the custom-trained YOLOv8 model and dataset used in the Safety-Driven Automotive Headlight Control System project. The system is designed to detect vehicles, pedestrians, and road elements in real time using camera input on a Raspberry Pi. With high accuracy and lightweight performance, the AI model plays a central role in dynamically adjusting headlight intensity to reduce glare and enhance nighttime driving safety.
 
@@ -40,10 +40,12 @@ Key Points:
 ## mAP50
 ![PR_curve](https://github.com/user-attachments/assets/ccc0b149-7da0-4332-b451-b6c6f3b4ed57)
 
-## Training Results
+
+## Results
 ![train_batch1](https://github.com/user-attachments/assets/ef0931a8-fc72-4cd1-9dd0-2dbdc3ef112d)![train_batch2](https://github.com/user-attachments/assets/a3d56a4a-176f-4780-aff4-e74fc9a9e46d)
 
-![train_batch0](https://github.com/user-attachments/assets/9451236b-15f0-43de-ab91-19f76e901746)
+![val_batch1_labels](https://github.com/user-attachments/assets/dce2f376-77b8-4080-9dd2-8bd0dc663c4b)
+
 
 
 You can find the dataset versioned on [Roboflow]([https://roboflow.com](https://app.roboflow.com/project-mzmwg/street-objects-ag7dt/browse?queryText=&pageSize=200&startingIndex=0&browseQuery=true)).
