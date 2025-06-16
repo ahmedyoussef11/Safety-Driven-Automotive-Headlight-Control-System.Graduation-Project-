@@ -1,6 +1,6 @@
 # V2V Communication System
 
-The Vehicle-to-Vehicle (V2V) communication system developed in this project enables real-time data exchange between nearby vehicles to enhance driving safety and coordination. Our system uses ESP32 microcontrollers, GY-87 IMU modules, and the GY-271 magnetometer to detect and share each vehicle's heading and orientation. Communication is handled through the lightweight MQTT protocol, allowing vehicles to determine whether they are approaching each other and to trigger automatic actions such as headlight dimming to prevent glare. This low-cost, reliable solution simulates how modern connected vehicles exchange data to support intelligent decision-making in dynamic driving environments.
+The Vehicle-to-Vehicle (V2V) communication system developed in this project enables real-time data exchange between nearby vehicles to enhance driving safety and coordination. Our system uses ESP32 microcontrollers,the GY-271 magnetometer to detect and share each vehicle's heading and orientation. Communication is handled through the lightweight MQTT protocol, allowing vehicles to determine whether they are approaching each other and to trigger automatic actions such as headlight dimming to prevent glare. This low-cost, reliable solution simulates how modern connected vehicles exchange data to support intelligent decision-making in dynamic driving environments.
 
 ![141950897](https://github.com/user-attachments/assets/c1946a7d-35af-424b-bb84-fd1150b4598c)
 
