@@ -2,17 +2,22 @@
 
 This repository contains an AI-powered system that detects oncoming vehicles and automatically adjusts headlight brightness to reduce glare and improve nighttime driving safety. Built with YOLOv8, Raspberry Pi, LiDAR, and V2V communication.
 
+---
+
 ## Main Problem
 The main problem addressed in this project is the danger caused by high-beam headlight glare during nighttime driving, which can temporarily blind oncoming drivers and significantly increase the risk of accidents. Many drivers forget or fail to switch to low beams in time, leading to reduced visibility, delayed reaction times, and potential collisions. This issue is especially critical on narrow or poorly lit roads where vehicles face each other directly. Current headlight systems lack intelligent, real-time adaptation, making it essential to develop an automated solution that minimizes glare without compromising the driver's own visibility.
 
-## Brochure
-![Uploading WhatsApp Image 2025-06-18 at 14.21.04.png…]()
-![Uploading Edit.org_design_18-06-14--13.jpg…]()
+---
 
+## Brochure
+![WhatsApp Image 2025-06-18 at 14 21 04](https://github.com/user-attachments/assets/27b99cfe-15f8-44ce-91ed-4d5a97141ff9)
+
+---
 
 ## System Diagram Overview
 ![Screenshot 2025-06-13 150004](https://github.com/user-attachments/assets/0919a30a-c196-4204-93bc-df5d7f4ef337)
 
+---
 
 # Supervisors 
 ## Dr. Hayam Abdelmordy
@@ -21,6 +26,7 @@ The main problem addressed in this project is the danger caused by high-beam hea
 ## Eng. Mostafa Ramadan 
 ![5947363368392312348](https://github.com/user-attachments/assets/93be389d-415a-430b-b1d9-0bda2edacffc)
 
+---
 
 ## Team
 We're 5 students from the Communications and Electronics Department:
@@ -33,8 +39,9 @@ We're 5 students from the Communications and Electronics Department:
 
 ## Project Demo
 
-![Uploading WhatsApp Image 2025-06-18 at 14.21.04.png…]()
 https://drive.google.com/drive/folders/1G2XqIqz11qL7owri-d6wS87ja95KVEem?usp=drive_link
+
+---
 
 ## Project Website
 ![4PGzBB456CJU--zdwbv6sLCgJ8IrSi--yWgREVUxOfPtFCBpdnooSw==](https://github.com/user-attachments/assets/450497c8-2434-4832-af36-16a5994f90fc)
