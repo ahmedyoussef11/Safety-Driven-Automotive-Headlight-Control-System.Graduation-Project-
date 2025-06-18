@@ -4,6 +4,7 @@ This repository contains the code and documentation for the LiDAR system used in
 
 ![Okdo-Lidar-Module-LiDAR-LD06-with-Bracket-Development-Kit-for-Raspberry-Pi-4B jpg_-1-removebg-preview](https://github.com/user-attachments/assets/ff95dacb-4641-42b5-96e1-443ac7ceee87)
 
+---
 
 ## LiDAR Overview
 
@@ -11,6 +12,8 @@ This repository contains the code and documentation for the LiDAR system used in
 - Filters LiDAR readings to focus on specific angles (front-facing area).
 - Computes object distance and triggers headlight dimming when needed.
 - Designed to run on a Raspberry Pi for embedded real-time applications.
+
+---
 
 ## Integration with Camera-Based Detection
 
