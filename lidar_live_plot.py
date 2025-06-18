@@ -1,8 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import numpy as np
 import matplotlib.pyplot as plt
 import serial
 from enum import Enum
 import struct
+import RPi.GPIO as GPIO  # Added for GPIO control
 
 # ----------------------------------------------------------------------
 # System Constants
@@ -14,6 +18,15 @@ PLOT_AUTO_RANGE = False
 PLOT_CONFIDENCE = True
 PLOT_CONFIDENCE_COLOUR_MAP = "bwr_r"
 PRINT_DEBUG = False
+ANGLE_MIN = 0    # Minimum angle in degrees
+ANGLE_MAX = 90  # Maximum angle in degrees (set to 180 for half-scan)
+
+# GPIO setup
+LED_PIN = 12  # GPIO pin number (you can change this if needed)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(LED_PIN, GPIO.OUT)
+pwm = GPIO.PWM(LED_PIN, 1000)  # 1000Hz PWM frequency
+pwm.start(100)  # Start at 100% brightness
 
 # ----------------------------------------------------------------------
 # Main Packet Format
@@ -42,12 +55,24 @@ def parse_lidar_data(data):
 
 
 def get_xyc_data(measurements):
-    angle = np.array([m[0] for m in measurements])
-    distance = np.array([m[1] for m in measurements])
-    confidence = np.array([m[2] for m in measurements])
+    # Filter measurements for angles between ANGLE_MIN and ANGLE_MAX
+    filtered = [m for m in measurements if ANGLE_MIN <= m[0] <= ANGLE_MAX]
+    angle = np.array([m[0] for m in filtered])
+    distance = np.array([m[1] for m in filtered])
+    confidence = np.array([m[2] for m in filtered])
     x = np.sin(np.radians(angle)) * (distance / 1000.0)
     y = np.cos(np.radians(angle)) * (distance / 1000.0)
-    return x, y, confidence
+    return x, y, confidence, distance
+
+
+def adjust_led_brightness(distance_array):
+    """Adjust LED brightness based on minimum distance."""
+    if distance_array.size > 0:
+        min_distance = np.min(distance_array) / 1000.0  # convert to meters
+        if min_distance <= 1:
+            pwm.ChangeDutyCycle(10)  # 10% brightness
+        else:
+            pwm.ChangeDutyCycle(100)  # 100% brightness
 
 
 running = True
@@ -58,7 +83,7 @@ def on_plot_close(event):
     running = False
 
 
-if name == "__main__":
+if __name__ == "__main__":
     try:
         lidar_serial = serial.Serial(SERIAL_PORT, 230400, timeout=0.5)
         measurements = []
@@ -113,10 +138,11 @@ if name == "__main__":
                     state = State.UPDATE_PLOT
 
             elif state == State.UPDATE_PLOT:
-                x, y, c = get_xyc_data(measurements)
+                x, y, c, d = get_xyc_data(measurements)
+                adjust_led_brightness(d)  # Adjust brightness based on distance
 
-                if PLOT_AUTO_RANGE:
-max_val = max([max(abs(x)), max(abs(y))]) * 1.2
+                if PLOT_AUTO_RANGE and x.size > 0 and y.size > 0:
+                    max_val = max([max(abs(x)), max(abs(y))]) * 1.2
                     plt.xlim(-max_val, max_val)
                     plt.ylim(-max_val, max_val)
 
@@ -136,5 +162,7 @@ max_val = max([max(abs(x)), max(abs(y))]) * 1.2
         print("\nStopping program...")
 
     finally:
+        pwm.stop()
+        GPIO.cleanup()  # Clean up GPIO
         lidar_serial.close()
-        print("Serial closed.")
+        print("GPIO cleaned and serial closed.")
