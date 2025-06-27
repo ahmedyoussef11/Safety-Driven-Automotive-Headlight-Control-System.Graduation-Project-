@@ -29,7 +29,7 @@ picam2.start()
 # Load YOLO model
 model = YOLO('yolov8n.pt')
 
-# COCO dataset class IDs for objects we care about
+# Dataset class IDs for objects we care about
 RELEVANT_CLASSES = {
     0: 'person',
     2: 'car',
