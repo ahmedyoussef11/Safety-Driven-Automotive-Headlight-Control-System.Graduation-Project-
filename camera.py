@@ -27,7 +27,7 @@ picam2.configure("preview")
 picam2.start()
 
 # Load YOLO model
-model = YOLO('yolov8n.pt')
+model = YOLO('best.pt')
 
 # Dataset class IDs for objects we care about
 RELEVANT_CLASSES = {
