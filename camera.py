@@ -33,8 +33,8 @@ model = YOLO('best.pt')
 RELEVANT_CLASSES = {
     0: 'person',
     2: 'car',
-    3: 'motorcycle',
-    5: 'bus',
+    # 3: 'motorcycle',
+    # 5: 'bus',
     7: 'truck'
 }
 
