@@ -42,6 +42,14 @@ We're 5 students from the Communications and Electronics Department:
 https://drive.google.com/drive/folders/1G2XqIqz11qL7owri-d6wS87ja95KVEem?usp=drive_link
 
 ---
+## Publication
+
+We are proud to share that our first research paper based on this project has been published as a preprint on **ResearchGate**.
+
+**Title:** An AI-Based Adaptive Headlight Control System Using YOLO, LiDAR, and V2V Communication  
+[Read on ResearchGate]([https://www.researchgate.net/publication/XXXXXXX](https://www.researchgate.net/publication/393139659_An_AI-Based_Adaptive_Headlight_Control_System_Integrating_YOLO_LiDAR_and_V2V_Communication)) 
+
+---
 
 ## Project Website
 ![4PGzBB456CJU--zdwbv6sLCgJ8IrSi--yWgREVUxOfPtFCBpdnooSw==](https://github.com/user-attachments/assets/450497c8-2434-4832-af36-16a5994f90fc)
